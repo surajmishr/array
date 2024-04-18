@@ -1,4 +1,5 @@
-if have data  not a rray 1,2,3,2-- Convert
+
+<?phpif have data  not a rray 1,2,3,2-- Convert
 your data varible store then  explode 
 array $processIdArray = explode(",", $data);
 
@@ -55,3 +56,4 @@ foreach ([$a, $b, $c, $d] as $array) {
 foreach ($combinedArray as $key => $value) {
     echo "$key => $value\n";
 }
+?>
